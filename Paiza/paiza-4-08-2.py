@@ -22,7 +22,10 @@
 
 import random
 line = input().rstrip()
-
+omikuji=line.split(",")
+num=len(omikuji)
+print(omikuji)
+print(omikuji[random.randrange(num)])
 # 今回は自力で全部書いてみよう！
 
 # カンマで分割して、リストに代入
